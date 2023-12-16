@@ -1,123 +1,33 @@
-.bio-and-photo {
+body {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+header {
+    height: 4rem;
+    width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    align-items: center;
 }
 
-.bio-and-photo img {
-    height: 25.1rem;
-    width: 20rem;
-}
-
-#description {
+header h1 {
     text-align: center;
 }
 
-#desc-text {
-    display: none;
-}
-
-
-.bio {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 50rem;
-}
-
-.bio section {
-    padding: 0;
-    margin: 0;
-    border-bottom-right-radius: 10px;
-    height: 27rem;
-}
-
-.bio h2 {
-    text-align: center;
-    font-size: 1.25rem;
-}
-
-.bio p {
-    text-align: left;
-    font-size: 0.75rem;
+header li {
+    display: inline;
+    margin-left: 1.5rem;
     font-weight: bold;
+    
 }
 
-
-#hole-punch {
-    display: flex;
-    justify-content: space-between;  
-    background-color: rgba(0, 255, 0, 0.5);
-    width: auto;
-    height: 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin: 0;
+header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
-.hole {
-    width: 1rem;
-    height: 1rem;
-    background-color: white;
-    border-radius: 50%;
-}
-
-#page-1 {
-    border: 1px solid rgba(0, 255, 0, 0);
-    background-color: rgba(0, 255, 0, 0.5);
-    display: block;
-    padding: 5px;
-}
-
-#page-2 {
-    border: 1px solid rgba(255, 0, 0, 0);
-    background-color: rgba(255, 0, 0, 0.5);
-    display: none;
-    padding: 5px;
-}
-
-#page-3 {
-    border: 1px solid rgba(255, 255, 0, 0);
-    background-color: rgba(255, 255, 0, 0.5);
-    display: none;
-    padding: 5px;
-}
-
-#page-4 {
-    border: 1px solid rgba(0, 0, 255, 0);
-    background-color: rgba(0, 0, 255, 0.5);
-    display: none;
-    padding: 5px;
-}
-
-button {
-    border: none;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top: 0;
-    padding: 10px;
-    margin: 0;
-    font-weight: bold;
-}
-
-button:hover {
-    cursor: pointer;
-}
-
-#page-1-btn {
-    border: none;
-    background-color: rgba(0, 255, 0, 0.5);
-}
-
-#page-2-btn {
-    border: none;
-    background-color: rgba(255, 0, 0, 0.5);
-}
-
-#page-3-btn {
-    border: none;
-    background-color: rgba(255, 255, 0, 0.5);
-}
-
-#page-4-btn {
-    border: none;
-    background-color: rgba(0, 0, 255, 0.5);
+header a:hover {
+    background-color: rgb(255,255,255);
 }

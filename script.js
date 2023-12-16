@@ -23,7 +23,7 @@ const welcome = () => {
     bio2.style.display = 'none';
     bio3.style.display = 'none';
     bio4.style.display = 'none';
-    hole.style.backgroundColor = 'rgba(0, 255, 0, 0.5)'
+    hole.style.backgroundColor = 'rgba(0, 255, 0, 0.3)'
 }
 
 //pressing the growing up button
@@ -32,7 +32,7 @@ const growingUp = () => {
     bio2.style.display = 'block';
     bio3.style.display = 'none';
     bio4.style.display = 'none';
-    hole.style.backgroundColor = 'rgba(255, 0, 0, 0.5)'
+    hole.style.backgroundColor = 'rgba(255, 0, 0, 0.3)'
 }
 
 //pressing the career button
@@ -41,7 +41,7 @@ const career = () => {
     bio2.style.display = 'none';
     bio3.style.display = 'block';
     bio4.style.display = 'none';
-    hole.style.backgroundColor = 'rgba(255, 255, 0, 0.5)'
+    hole.style.backgroundColor = 'rgba(255, 255, 0, 0.3)'
 }
 
 //pressing the programming button
@@ -50,7 +50,7 @@ const programming = () => {
     bio2.style.display = 'none';
     bio3.style.display = 'none';
     bio4.style.display = 'block';
-    hole.style.backgroundColor = 'rgba(0, 0, 255, 0.5)'
+    hole.style.backgroundColor = 'rgba(0, 0, 255, 0.3)'
 }
 
 //hovering over picture 

@@ -1,0 +1,140 @@
+.overlay {
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 1px solid black;
+}
+.bio-and-photo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.bio-and-photo img {
+    height: 25.1rem;
+    width: 20rem;
+}
+
+#description {
+    text-align: center;
+}
+
+#desc-text {
+    display: none;
+}
+
+
+.bio {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50rem;
+}
+
+.bio section {
+    padding: 0;
+    margin: 0;
+    border-bottom-right-radius: 10px;
+    height: 27rem;
+}
+
+.bio h2 {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.bio p {
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+
+#hole-punch {
+    display: flex;
+    justify-content: space-between;  
+    background-color: rgba(0, 255, 0, 0.3);
+    width: auto;
+    height: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+}
+
+.hole {
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#page-1 {
+    border: 1px solid rgba(0, 255, 0, 0);
+    background-color: rgba(0, 255, 0, 0.3);
+    display: block;
+    padding: 5px;
+}
+
+#page-2 {
+    border: 1px solid rgba(255, 0, 0, 0);
+    background-color: rgba(255, 0, 0, 0.3);
+    display: none;
+    padding: 5px;
+}
+
+#page-3 {
+    border: 1px solid rgba(255, 255, 0, 0);
+    background-color: rgba(255, 255, 0, 0.3);
+    display: none;
+    padding: 5px;
+}
+
+#page-4 {
+    border: 1px solid rgba(0, 0, 255, 0);
+    background-color: rgba(0, 0, 255, 0.3);
+    display: none;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 0;
+    padding: 10px;
+    margin: 0;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#page-1-btn {
+    border: none;
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+#page-2-btn {
+    border: none;
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+#page-3-btn {
+    border: none;
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+#page-4-btn {
+    border: none;
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+#projects{
+    width: 10rem;
+    background-color: rgb(255, 165, 0, 0.3);
+    font-weight: bold;
+}
+
+#projects h2{
+    text-align: center;
+
+}
